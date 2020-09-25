@@ -1,6 +1,6 @@
 package br.tsantos8080.clinicaveterinaria.models;
 
-public class Person {
+public class Person extends BaseEntity {
     private String firstName, lastName;
 
     public String getFirstName() {
