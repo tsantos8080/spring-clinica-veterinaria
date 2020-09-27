@@ -1,11 +1,11 @@
 package br.tsantos8080.clinicaveterinaria.services.map;
 
 import br.tsantos8080.clinicaveterinaria.models.Vet;
-import br.tsantos8080.clinicaveterinaria.services.CrudService;
+import br.tsantos8080.clinicaveterinaria.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();

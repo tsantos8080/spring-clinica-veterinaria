@@ -12,8 +12,6 @@ public abstract class AbstractMapService<T, ID> {
         return new HashSet<>(map.values());
     }
 
-    ;
-
     T findById(ID id) {
         return map.get(id);
     }
